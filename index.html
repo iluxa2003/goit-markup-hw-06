@@ -15,7 +15,6 @@
     <title>Studio</title>
   </head>
   <body>
-    
     <header>
       <div class="container">
         <nav>
@@ -39,10 +38,7 @@
           <li>
             <a class="link" href="mailto:info@devstudio.com">
               <svg height="12" width="16">
-                <use
-                  href="images/sprite2.svg#icon-envelope"
-                  height="12"
-                ></use>
+                <use href="images/sprite2.svg#icon-envelope" height="12"></use>
               </svg>
               info@devstudio.com
             </a>
@@ -61,19 +57,16 @@
         </ul>
       </div>
     </header>
-    
+
     <main>
-      
-        <section class="studio-central-block section">
-          <div class="overlay">
-            <h1>Эффективные решения для вашего бизнеса</h1>
-            <button data-modal-open class="button-index" type="button">Заказать услугу</button>
-          </div>
-        
+      <section class="studio-central-block section">
+        <div class="overlay">
+          <h1>Эффективные решения для вашего бизнеса</h1>
+          <button data-modal-open class="button-index" type="button">
+            Заказать услугу
+          </button>
+        </div>
       </section>
-      
-      
-      
 
       <section class="studio-description section" id="studio">
         <div class="container">
@@ -149,31 +142,27 @@
         <div class="container">
           <h2>Чем мы занимаемся</h2>
           <ul>
-            
             <li>
-              
               <img
-              src="images/tree_coding.jpg"
-              alt="Tree_coding_foto"
-              width="370"
+                src="images/tree_coding.jpg"
+                alt="Tree_coding_foto"
+                width="370"
               />
               <div class="work__portfolio">Десктопные приложения</div>
             </li>
             <li>
-              
               <img
-              src="images/noytbook.jpg"
-              alt="Work_place_foto"
-              width="370"
+                src="images/noytbook.jpg"
+                alt="Work_place_foto"
+                width="370"
               />
               <div class="work__portfolio">Мобильные приложения</div>
             </li>
             <li>
-              
               <img
-              src="images/mozaika.jpg"
-              alt="Cool_mozaika_foto"
-              width="370"
+                src="images/mozaika.jpg"
+                alt="Cool_mozaika_foto"
+                width="370"
               />
               <div class="work__portfolio">Дизайнерские решения</div>
             </li>
@@ -482,8 +471,7 @@
           <div class="footer_special">
             <label>
               <span>Подпишитесь на рассылку</span>
-              <input class ="input_footer" type="email"  placeholder="E-mail"/>
-              
+              <input class="input_footer" type="email" placeholder="E-mail" />
             </label>
             <button type="submit">
               Подписаться
@@ -503,51 +491,62 @@
           </svg>
         </button>
         <h3>Оставьте свои данные, мы вам перезвоним</h3>
-        <form class="sign__form" name="signup_form" autocomplete="on" novalidate>
-          <label for="name_input">
-            Имя
-          </label>
+        <form
+          class="sign__form"
+          name="signup_form"
+          autocomplete="on"
+          novalidate
+        >
+          <label for="name_input"> Имя </label>
           <div class="name_wrap">
-          <input  type="text" name="username" class="name__input" id="name_input"/>
+            <input
+              type="text"
+              name="username"
+              class="name__input"
+              id="name_input"
+            />
             <svg class="person icon form__icon">
               <use href="images/sprite2.svg#modal-person"></use>
             </svg>
           </div>
-          <label for="tel_input">
-            Телефон
-          </label>
+          <label for="tel_input"> Телефон </label>
           <div class="tel_wrap">
-          <input  type="tel" name="tel" id="tel_input"/>
+            <input type="tel" name="tel" id="tel_input" />
             <svg class="phone icon form__icon">
               <use href="images/sprite2.svg#modal-phone"></use>
             </svg>
           </div>
-          <label for="email_input">
-            Почта
-          </label>
+          <label for="email_input"> Почта </label>
           <div class="email_wrap">
-          <input  type="email" name="email" id="email_input"/>
+            <input type="email" name="email" id="email_input" />
             <svg class="envelop icon form__icon">
               <use href="images/sprite2.svg#modal-envelope"></use>
             </svg>
           </div>
-          <label for="comment__area">
-            Комментарий
-          </label>
-          <textarea name="comment__area" id="comment__area"  placeholder="Введите текст"></textarea>
-            
+          <label for="comment__area"> Комментарий </label>
+          <textarea
+            name="comment__area"
+            id="comment__area"
+            placeholder="Введите текст"
+          ></textarea>
+
           <div class="checkmate">
             <label for="check">
-              <input id="check" type="checkbox" name="agree"/>
+              <input id="check" type="checkbox" name="agree" />
               <span class="check_icon"></span>
-              <span>Соглашаюсь с рассылкой и принимаю <a href="#">Условия договора</a></span>
-              </label>
-            </div>
-            <button class="button-index form__btn" type="submit">Отправить</button>
+              <span
+                >Соглашаюсь с рассылкой и принимаю
+                <a href="#">Условия договора</a></span
+              >
+            </label>
+          </div>
+          <button class="button-index form__btn" type="submit">
+            Отправить
+          </button>
         </form>
       </div>
     </div>
-    
+
     <script src="./js/modal.js"></script>
   </body>
 </html>
