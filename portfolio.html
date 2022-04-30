@@ -11,33 +11,33 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/modern-normalize.css" />
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/main.min.css" />
     <title>Portfolio</title>
   </head>
   <body>
-    <header>
-      <div class="container">
-        <nav>
-          <div class="webStudio">
+    <header class="main-header">
+      <div class="main-header_container main-container">
+        <nav class="main-header__navigation">
+          <div class="main-header__webStudio-link">
             <a class="link-web" href="#">Web</a>Studio
           </div>
           <ul class="header-list">
             <li>
-              <a class="link" href="index.html">Cтудия</a>
+              <a class="header-list__link" href="index.html">Cтудия</a>
             </li>
             <li>
-              <a class="link active" href="portfolio.html">Портфолио</a>
+              <a class="header-list__link active" href="portfolio.html">Портфолио</a>
             </li>
             <li>
-              <a class="link" href="#">Контакты</a>
+              <a class="header-list__link" href="#">Контакты</a>
             </li>
           </ul>
         </nav>
 
-        <ul class="address">
-          <li>
-            <a class="link" href="mailto:info@devstudio.com">
-              <svg height="12px" width="16px">
+        <ul class="main-header__address">
+          <li class="main-header__address-text">
+            <a class="main-header__address-link" href="mailto:info@devstudio.com">
+              <svg class="main-header__addres-svg" height="12px" width="16px">
                 <use
                   href="images/sprite2.svg#icon-envelope"
                   height="12px"
@@ -46,9 +46,9 @@
               info@devstudio.com
             </a>
           </li>
-          <li>
-            <a class="link" href="tel:+380961111111">
-              <svg height="16px" width="10px">
+          <li class="main-header__address-text">
+            <a class="main-header__address-link" href="tel:+380961111111">
+              <svg class="main-header__addres-svg"  height="16px" width="10px">
                 <use
                   href="images/sprite2.svg#icon-smartphone"
                   height="16px"
@@ -60,44 +60,44 @@
         </ul>
       </div>
     </header>
-    <main class="container section">
+    <main class=" portfolio main-container section">
       <ul class="buttons-portfolio">
         <li>
-          <button class="buttons" type="button">Все</button>
+          <button class="buttons-potfolio__buttons" type="button">Все</button>
         </li>
         <li>
-          <button class="buttons" type="button">Веб-сайты</button>
+          <button class="buttons-potfolio__buttons" type="button">Веб-сайты</button>
         </li>
         <li>
-          <button class="buttons" type="button">Приложения</button>
+          <button class="buttons-potfolio__buttons" type="button">Приложения</button>
         </li>
         <li>
-          <button class="buttons" type="button">Дизайн</button>
+          <button class="buttons-potfolio__buttons" type="button">Дизайн</button>
         </li>
         <li>
-          <button class="buttons" type="button">Маркетинг</button>
+          <button class="buttons-potfolio__buttons" type="button">Маркетинг</button>
         </li>
       </ul>
 
       <div class="galery">
-        <ul class="">
+        <ul>
           <li>
             <figure>
               <div>
                 <img
                   src="images/technoCriack.jpg"
                   alt="Demianenko_foto"
-                  class="portfolio-overlay"
+                  class="galery__overlay"
                 />
-                <p class="special-overlay">
+                <p class="galery__special-overlay">
                   Ресурс предлагает комплексные предложения с разным уровнем
                   функционала и сервисов. Все это позволит посетителю получить
                   исчерпывающие сведения о компании или частном лице.
                 </p>
               </div>
               <figcaption>
-                <p class="portfolio-list-card__caption">Технокряк</p>
-                <p class="portfolio-list-card__descr">веб-сайт</p>
+                <p class="galery__card__caption">Технокряк</p>
+                <p class="galery__card__descr">веб-сайт</p>
               </figcaption>
             </figure>
           </li>
@@ -105,17 +105,17 @@
             <figure>
               <div>
                 <img src="images/poster.jpg" alt="Repina_foto" width="370" />
-                <p class="special-overlay">
+                <p class="galery__special-overlay">
                   Ресурс предлагает комплексные предложения с разным уровнем
                   функционала и сервисов. Все это позволит посетителю получить
                   исчерпывающие сведения о компании или частном лице.
                 </p>
               </div>
               <figcaption>
-                <p class="portfolio-list-card__caption">
+                <p class="galery__card__caption">
                   Постер New Orlean vs Golden Star
                 </p>
-                <p class="portfolio-list-card__descr">дизайн</p>
+                <p class="galery__card__descr">дизайн</p>
               </figcaption>
             </figure>
           </li>
@@ -123,15 +123,15 @@
             <figure>
               <div>
                 <img src="images/seafood.jpg" alt="Tarasov_foto" width="370" />
-                <p class="special-overlay">
+                <p class="galery__special-overlay">
                   Ресурс предлагает комплексные предложения с разным уровнем
                   функционала и сервисов. Все это позволит посетителю получить
                   исчерпывающие сведения о компании или частном лице.
                 </p>
               </div>
               <figcaption>
-                <p class="portfolio-list-card__caption">Ресторан Seafood</p>
-                <p class="portfolio-list-card__descr">приложение</p>
+                <p class="galery__card__caption">Ресторан Seafood</p>
+                <p class="galery__card__descr">приложение</p>
               </figcaption>
             </figure>
           </li>
@@ -140,15 +140,15 @@
               <div>
                 <img src="images/prime.jpg" alt="Ermakov_foto" width="370" />
 
-                <p class="special-overlay">
+                <p class="galery__special-overlay">
                   Ресурс предлагает комплексные предложения с разным уровнем
                   функционала и сервисов. Все это позволит посетителю получить
                   исчерпывающие сведения о компании или частном лице.
                 </p>
               </div>
               <figcaption>
-                <p class="portfolio-list-card__caption">Проект Prime</p>
-                <p class="portfolio-list-card__descr">маркетинг</p>
+                <p class="galery__card__caption">Проект Prime</p>
+                <p class="galery__card__descr">маркетинг</p>
               </figcaption>
             </figure>
           </li>
@@ -157,15 +157,15 @@
               <div>
                 <img src="images/boxes.jpg" alt="Ermakov_foto" width="370" />
 
-                <p class="special-overlay">
+                <p class="galery__special-overlay">
                   Ресурс предлагает комплексные предложения с разным уровнем
                   функционала и сервисов. Все это позволит посетителю получить
                   исчерпывающие сведения о компании или частном лице.
                 </p>
               </div>
               <figcaption>
-                <p class="portfolio-list-card__caption">Проект Boxes</p>
-                <p class="portfolio-list-card__descr">приложение</p>
+                <p class="galery__card__caption">Проект Boxes</p>
+                <p class="galery__card__descr">приложение</p>
               </figcaption>
             </figure>
           </li>
@@ -178,17 +178,17 @@
                   width="370"
                 />
 
-                <p class="special-overlay">
+                <p class="galery__special-overlay">
                   Ресурс предлагает комплексные предложения с разным уровнем
                   функционала и сервисов. Все это позволит посетителю получить
                   исчерпывающие сведения о компании или частном лице.
                 </p>
               </div>
               <figcaption>
-                <p class="portfolio-list-card__caption">
+                <p class="galery__card__caption">
                   Inspiration has no Borders
                 </p>
-                <p class="portfolio-list-card__descr">веб-сайт</p>
+                <p class="galery__card__descr">веб-сайт</p>
               </figcaption>
             </figure>
           </li>
@@ -201,17 +201,17 @@
                   width="370"
                 />
 
-                <p class="special-overlay">
+                <p class="galery__special-overlay">
                   Ресурс предлагает комплексные предложения с разным уровнем
                   функционала и сервисов. Все это позволит посетителю получить
                   исчерпывающие сведения о компании или частном лице.
                 </p>
               </div>
               <figcaption>
-                <p class="portfolio-list-card__caption">
+                <p class="galery__card__caption">
                   Издание Limited Edition
                 </p>
-                <p class="portfolio-list-card__descr">дизайн</p>
+                <p class="galery__card__descr">дизайн</p>
               </figcaption>
             </figure>
           </li>
@@ -220,15 +220,15 @@
               <div>
                 <img src="images/lab.jpg" alt="Ermakov_foto" width="370" />
 
-                <p class="special-overlay">
+                <p class="galery__special-overlay">
                   Ресурс предлагает комплексные предложения с разным уровнем
                   функционала и сервисов. Все это позволит посетителю получить
                   исчерпывающие сведения о компании или частном лице.
                 </p>
               </div>
               <figcaption>
-                <p class="portfolio-list-card__caption">Проект LAB</p>
-                <p class="portfolio-list-card__descr">маркетинг</p>
+                <p class="galery__card__caption">Проект LAB</p>
+                <p class="galery__card__descr">маркетинг</p>
               </figcaption>
             </figure>
           </li>
@@ -241,72 +241,72 @@
                   width="370"
                 />
 
-                <p class="special-overlay">
+                <p class="galery__special-overlay">
                   Ресурс предлагает комплексные предложения с разным уровнем
                   функционала и сервисов. Все это позволит посетителю получить
                   исчерпывающие сведения о компании или частном лице.
                 </p>
               </div>
               <figcaption>
-                <p class="portfolio-list-card__caption">Growing Business</p>
-                <p class="portfolio-list-card__descr">приложение</p>
+                <p class="galery__card__caption">Growing Business</p>
+                <p class="galery__card__descr">приложение</p>
               </figcaption>
             </figure>
           </li>
         </ul>
       </div>
     </main>
-    <footer class="footer__inner">
-      <div class="container">
-        <div class="footer__info">
-          <div class="left__bloc">
-            <div class="webStudio">
+    <footer class="footer-info">
+      <div class="main-container">
+        <div class="footer-info__container">
+          <div class="footer-info_left-block">
+            <div class="footer-info__webStudio">
               <a href="#" class="link-web">Web</a>Studio
             </div>
-            <address class="address__block" id="contacts">
+            <address class="footer-info_address" id="contacts">
               <ul>
-                <li>
-                  <p>г. Киев, пр-т Леси Украинки, 26</p>
+                <li class="footer-info_address-textbox">
+                  <p class="footer-info_address-text">г. Киев, пр-т Леси Украинки, 26</p>
                 </li>
-                <li>
-                  <a class="link" href="mailto:info@example.com"
+                <li class="footer-info_address-textbox">
+                  <a class="footer-info_address-link" href="mailto:info@example.com"
                     >info@example.com</a
                   >
                 </li>
-                <li>
-                  <a class="link" href="tel:+380991111111">+38 099 111 11 11</a>
+                <li class="footer-info_address-textbox">
+                  <a class="footer-info_address-link" href="tel:+380991111111">+38 099 111 11 11</a>
                 </li>
               </ul>
             </address>
           </div>
-          <div class="right__block">
-            <h5>Присоеденяйтесь</h5>
-            <div class="footer__icons">
-              <ul class="social">
-                <li>
-                  <button class="icon__button" type="button">
-                    <svg class="icon">
+          <div class="footer-info__central-block">
+            <h5 class="footer-info__text-block">Присоеденяйтесь</h5>
+            <div class="footer-info__social-networks">
+              <ul class="footer-info__social-list">
+                <li class="footer-info__list-component">
+                  <button class="footer-info__icon-button" type="button">
+                    <svg class="footer-info__icon icon">
                       <use href="images/sprite2.svg#icon-instagram"></use>
                     </svg>
                   </button>
                 </li>
-                <li>
-                  <button class="icon__button" type="button">
-                    <svg class="icon">
+                <li class="footer-info__list-component">
+                  <button class="footer-info__icon-button" type="button">
+                    <svg class="footer-info__icon icon">
                       <use href="images/sprite2.svg#icon-Group "></use>
                     </svg>
                   </button>
                 </li>
-                <li>
-                  <button class="icon__button" type="button">
-                    <svg class="icon">
+                <li class="footer-info__list-component">
+                  <button class="footer-info__icon-button" type="button">
+                    <svg class="footer-info__icon icon">
                       <use href="images/sprite2.svg#icon-facebook"></use>
                     </svg>
                   </button>
                 </li>
-                <li>
-                  <button class="icon__button" type="button">
-                    <svg class="icon">
+                <li class="footer-info__list-component">
+                  <button class="footer-info__icon-button" type="button">
+                    <svg class="footer-info__icon icon">
                       <use href="images/sprite2.svg#icon-linkedin"></use>
                     </svg>
                   </button>
@@ -314,14 +314,14 @@
               </ul>
             </div>
           </div>
-          <div class="footer_special">
-            <label>
-              <span>Подпишитесь на рассылку</span>
-              <input class="input_footer" type="email" placeholder="E-mail" />
+          <div class="footer-info_right-block">
+            <label class="footer-info_label">
+              <span class="footer-info__text-block">Подпишитесь на рассылку</span>
+              <input class="footer-info__input" type="email" placeholder="E-mail" />
             </label>
-            <button type="submit">
+            <button class="footer-info__button" type="submit">
               Подписаться
-              <svg class="icon">
+              <svg class="footer-info__icon icon">
                 <use href="images/sprite2.svg#tg"></use>
               </svg>
             </button>
